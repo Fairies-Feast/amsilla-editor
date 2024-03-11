@@ -1,5 +1,5 @@
 function convert(inputText) {
-  return inputText;
+  return amsillaEditorProcess(inputText.replaceAll("&","&#38;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll("\n","<br>").replaceAll(" ","&nbsp;"));
 }
 var syntaxElement = document.getElementById("syntax");
 var textarea = document.getElementById("write");
