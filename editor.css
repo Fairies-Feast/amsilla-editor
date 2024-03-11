@@ -1,0 +1,50 @@
+html, body {
+  padding:0;
+  margin:0;
+}
+#syntax {
+  color:white; /*text color*/
+}
+#syntax, #write {
+  font-family: 'Courier New', Courier, monospace; /*font*/
+  position:absolute;
+  padding:0;
+  margin:0;
+  font-size: 20px; /*text size*/
+  width:100%; /*width*/
+  word-wrap:break-word; /*wrap*/
+  word-break:break-all; /*wrap*/
+  height:auto;
+  overflow:hidden;
+  min-height: 50%;
+}
+#write {
+  background:transparent;
+  border:none;
+  resize: none;
+  outline:none;
+  color:transparent;
+  caret-color: white; /*text color*/
+}
+/*Syntax Highlight*/
+.keyword {
+  font-weight: 900;
+}
+.clue {
+  color:orange;
+  font-style: italic;
+}
+.error {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: rgb(255,0,0);
+}
+.warning {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: rgb(166, 146, 43);
+}
+.deprecated {
+  text-decoration: line-through;
+  text-decoration-color: currentColor;
+}
