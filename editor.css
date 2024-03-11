@@ -4,6 +4,7 @@ html, body {
 }
 #syntax {
   color:white; /*text color*/
+  background:#333;
 }
 #syntax, #write {
   font-family: 'Courier New', Courier, monospace; /*font*/
