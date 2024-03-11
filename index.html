@@ -11,8 +11,10 @@
 <body>
   <h2>Welcome to the Amsilla Editor</h2>
   <p>The Amsilla Editor allows you to add-on syntax and error highlighting. In the demo below, "error" appears with a red line underneath. Try typing some more "error"'s!</p>
-  <div id='syntax'></div>
-  <textarea id='write' spellcheck="false">error</textarea>
+  <div class='editor'>
+    <div id='syntax'></div>
+    <textarea id='write' spellcheck="false">error</textarea>
+  </div>
   <script>
     function amsillaEditorProcess(data) {
       return data.replaceAll("error","<span class='error'>error</span>");
