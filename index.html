@@ -15,7 +15,7 @@
   <textarea id='write' spellcheck="false">error</textarea>
   <script>
     function amsillaEditorProcess(data) {
-      return data.replace("error","<span class='error'>error</span>");
+      return data.replaceAll("error","<span class='error'>error</span>");
     }
   </script>
   <script src="editor.js"></script>
