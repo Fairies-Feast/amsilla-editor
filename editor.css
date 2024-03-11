@@ -27,24 +27,8 @@ html, body {
   caret-color: white; /*text color*/
 }
 /*Syntax Highlight*/
-.keyword {
-  font-weight: 900;
-}
-.clue {
-  color:orange;
-  font-style: italic;
-}
 .error {
   text-decoration-line: underline;
   text-decoration-style: wavy;
   text-decoration-color: rgb(255,0,0);
-}
-.warning {
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: rgb(166, 146, 43);
-}
-.deprecated {
-  text-decoration: line-through;
-  text-decoration-color: currentColor;
 }
