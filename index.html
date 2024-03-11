@@ -10,7 +10,12 @@
 
 <body>
   <div id='syntax'></div>
-  <textarea id='write' spellcheck="false">errordeprecatedkeywordwarningclue</textarea>
+  <textarea id='write' spellcheck="false">error</textarea>
+  <script>
+    function amsillaEditorProcess(data) {
+      return data.replace("error","<span class='error'>error</span>");
+    }
+  </script>
   <script src="editor.js"></script>
 </body>
 
