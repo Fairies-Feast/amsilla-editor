@@ -17,9 +17,11 @@ html, body {
   height:auto;
   overflow:hidden;
   min-height: 50%;
-  position:fixed;
+  /*OK to remove*/
+  position:fixed; /*OK to remove but replace with position:absolute;*/
   bottom:0;
   right:0;
+  opacity:0.7;
 }
 #write {
   background:transparent;
