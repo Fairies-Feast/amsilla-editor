@@ -16,8 +16,8 @@ html, body {
   word-break:break-all; /*wrap*/
   height:auto;
   overflow:hidden;
-  min-height: 50%;
   /*OK to remove*/
+  min-height: 50%;
   position:fixed; /*OK to remove but replace with position:absolute;*/
   bottom:0;
   right:0;
