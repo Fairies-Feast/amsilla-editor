@@ -16,6 +16,7 @@ html, body {
   word-break:break-all; /*wrap*/
   height:auto;
   overflow:hidden;
+  letter-spacing: 1px; /*spacing*/
   /*OK to remove*/
   min-height: 50%;
   position:fixed; /*OK to remove but replace with position:absolute;*/
