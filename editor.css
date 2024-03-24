@@ -37,3 +37,8 @@ html, body {
   text-decoration-style: wavy;
   text-decoration-color: rgb(255,0,0);
 }
+.key {
+  padding:3px;
+  background:#333;
+  color:white;
+}
