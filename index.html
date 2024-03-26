@@ -22,6 +22,7 @@
         return "Text to show when there is no content...";
       } else if (data == "a") {
         textarea.value += "Whenever the content is just 'A', you can make it autofill to this text!";
+        highlight(); // This is required when the textarea is updated.
         return data;
       }
       return data.replaceAll("error","<span class='error'>error</span>") + "<wbr><span class='key'>Tab</span> Some text!";
