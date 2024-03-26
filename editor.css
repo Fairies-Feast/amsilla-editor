@@ -19,7 +19,7 @@ html, body {
   font-kerning: none;
   font-stretch:normal;
   letter-spacing: 1px; /*spacing*/
-  font-weight: 900; /*weight*/
+  font-weight: 200; /*weight*/
   /*OK to remove*/
   min-height: 50%;
   position:fixed; /*OK to remove but replace with position:absolute;*/
