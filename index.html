@@ -16,9 +16,13 @@
     <textarea id='write' spellcheck="false">error</textarea>
   </div>
   <script>
+    var textarea = document.getElementById("write");
     function amsillaEditorProcess(data) {
       if (data == "") {
         return "Text to show when there is no content...";
+      } else if (data == "a") {
+        textarea.value += "Whenever the content is just 'A', you can make it autofill to this text!";
+        return data;
       }
       return data.replaceAll("error","<span class='error'>error</span>") + "<wbr><span class='key'>Tab</span> Some text!";
     }
