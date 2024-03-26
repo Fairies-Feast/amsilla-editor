@@ -23,9 +23,6 @@ html, body {
   /*OK to remove*/
   min-height: 50%;
   position:absolute; /*OK to remove but replace with position:fixed;*/
-  bottom:0;
-  right:0;
-  opacity:0.7;
 }
 #write {
   background:transparent;
