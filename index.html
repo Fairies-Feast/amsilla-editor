@@ -18,7 +18,7 @@
   <script>
     function amsillaEditorProcess(data) {
       if (data == "") {
-        return "Need some ideas? <button>View Templates</button>. Start typing to hide this message.";
+        return "Text to show when there is no content...";
       }
       return data.replaceAll("error","<span class='error'>error</span>") + "<wbr><span class='key'>Tab</span> Some text!";
     }
