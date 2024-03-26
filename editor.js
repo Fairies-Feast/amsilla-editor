@@ -7,7 +7,6 @@ function highlight(){
   var selectStart = textarea.selectionStart;
   var selectEnd = textarea.selectionEnd;
   syntaxElement.innerHTML = convert(textarea.value);
-  syntaxElement.innerHTML = convert(textarea.value);
   textarea.style.height = "auto";
   textarea.style.height = (textarea.scrollHeight) + "px";
   textarea.selectionStart = selectStart;
