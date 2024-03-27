@@ -1,3 +1,4 @@
+// copyright (c) amsilla.com
 var syntaxElement = document.getElementById("syntax");
 var textarea = document.getElementById("write");
 function convert(inputText) {
