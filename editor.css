@@ -5,6 +5,7 @@ html, body {
 #syntax {
   color:white; /*text color*/
   background:#333;
+  opacity:0.2;
 }
 #syntax, #write {
   font-family: 'Courier New', Courier, monospace; /*font*/
