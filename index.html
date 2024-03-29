@@ -10,7 +10,7 @@
 
 <body>
   <h2>Welcome to the Amsilla Editor</h2>
-  <p>The Amsilla Editor allows you to add-on syntax and error highlighting. In the demo below, "error" appears with a red line underneath. Try typing some more "error"s, deleting all the content, or deleting all the content and typing lowercase 'a'!</p>
+  <p>The Amsilla Editor allows you to add-on syntax and error highlighting. In the demo below, "error" appears with a red line underneath. Try typing some more "error"s, or deleting all the content,!</p>
   <div class='editor'>
     <div id='syntax'></div>
     <textarea id='write' spellcheck="false">error</textarea>
@@ -20,12 +20,8 @@
     function amsillaEditorProcess(data) {
       if (data == "") {
         return "Text to show when there is no content...";
-      } else if (data == "a") {
-        var toAdd = "Whenever the content is just 'A', you can make it autofill to this text!";
-        textarea.value += toAdd;
-        return data + toAdd;
       }
-      return data.replaceAll("error","<span class='error'>error</span>").replaceAll("L","<span class='key'>L</span>") + "<wbr><span class='key'>Tab</span> Some text!";
+      return data.replaceAll("error","<span class='error'>error</span>") + "<wbr><span class='key'>Tab</span> Some text!";
     }
   </script>
   <script src="editor.js"></script>
