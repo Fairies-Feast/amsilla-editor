@@ -1,5 +1,9 @@
 # Amsilla Editor
-The Amsilla Editor aims to be an easy-to-use powerful web editor with ultimate extensibility. Though it was made to be a code editor, Amsilla Editor will work from recreating Google Docs to just modifying the HTML Input/Textarea element.
+The Amsilla Editor is a powerful editor in any way. It can be used as a code editor, a text editor, and more! It can be customized however you like it, and you can add special features with callback functions.
 
-Monaco editor uses several ineffecient functions, and typically lags out (when using plaintext mode) after just a thousand lines of code.
-Amsilla editor, on the other hand, starts lagging after three times that amount.
+The editor that powers VS Code, Monaco Editor, is much slower than the Amsilla Editor. Monaco Editor typically lags out at a thousand lines, in just plain text mode!
+Most long programs take up several thousand lines.
+Amsilla Editor begins lagging at nearly ten times that amount, making Amsilla Editor the much speedier editor.
+If you don't believe this, you can try it out yourself!
+
+If you see any bugs, feel free to send a pull request, or you can add an issue.
