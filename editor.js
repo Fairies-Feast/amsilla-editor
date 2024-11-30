@@ -1,6 +1,5 @@
 // copyright (c) amsilla.com
-function highlight(syntaxElement, textarea, callback){
-  textarea.addEventListener("input", ()=>highlight(syntaxElement, textarea, callback));
+function amsillahighlight(syntaxElement, textarea, callback){
   var selectStart = textarea.selectionStart;
   var selectEnd = textarea.selectionEnd;
   syntaxElement.innerHTML = callback(textarea.value.replaceAll("&","&#38;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll("\n","<br>").replaceAll(" ","&nbsp;"));;
@@ -8,4 +7,7 @@ function highlight(syntaxElement, textarea, callback){
   textarea.style.height = (textarea.scrollHeight) + "px";
   textarea.selectionStart = selectStart;
   textarea.selectionEnd = selectEnd;
+}
+function highlight(syntaxElement, textarea, callback){
+  textarea.addEventListener("input", ()=>amsillahighlight(syntaxElement, textarea, callback));
 }
