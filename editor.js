@@ -1,6 +1,6 @@
 // copyright (c) amsilla.com
 function highlight(syntaxElement, textarea, callback){
-  textarea.addEventListener("input", highlight);
+  textarea.addEventListener("input", ()=>highlight(syntaxElement, textarea, callback));
   var selectStart = textarea.selectionStart;
   var selectEnd = textarea.selectionEnd;
   syntaxElement.innerHTML = callback(textarea.value.replaceAll("&","&#38;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll("\n","<br>").replaceAll(" ","&nbsp;"));;
