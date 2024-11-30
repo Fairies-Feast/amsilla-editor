@@ -15,12 +15,12 @@
   <textarea id='write' spellcheck="false">error</textarea>
   <h1>G</h1>
   <script>
-    function amsillaEditorProcess(data) {
+    highlight(document.getElementById('syntax'),document.getElementById('write'),function(e){
       if (data == "") {
         return "Text to show when there is no content...";
       }
       return data.replaceAll("error","<span class='error'>error</span>") + "<wbr><span class='key'>Tab</span> Some text!";
-    }
+    })
   </script>
   <script src="editor.js"></script>
 </body>
