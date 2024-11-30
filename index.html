@@ -17,10 +17,10 @@
   <h1>G</h1>
   <script>
     highlight(document.getElementById('syntax'),document.getElementById('write'),function(e){
-      if (data == "") {
+      if (e == "") {
         return "Text to show when there is no content...";
       }
-      return data.replaceAll("error","<span class='error'>error</span>") + "<wbr><span class='key'>Tab</span> Some text!";
+      return e.replaceAll("error","<span class='error'>error</span>") + "<wbr><span class='key'>Tab</span> Some text!";
     })
   </script>
 </body>
