@@ -9,5 +9,6 @@ function amsillahighlight(syntaxElement, textarea, callback){
   textarea.selectionEnd = selectEnd;
 }
 function highlight(syntaxElement, textarea, callback){
+  amsillahighlight(syntaxElement, textarea, callback)
   textarea.addEventListener("input", ()=>amsillahighlight(syntaxElement, textarea, callback));
 }
