@@ -7,8 +7,6 @@
 }
 #syntax, #write {
   font-family: 'Courier New', Courier, monospace; /*font*/
-  padding:0;
-  margin:0;
   font-size: 20px; /*text size*/
   width:100%; /*width*/
   min-height: 20vh; /*min height*/
