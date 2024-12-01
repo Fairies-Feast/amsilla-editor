@@ -7,9 +7,9 @@ Amsilla Editor begins lagging at nearly ten times that amount, making Amsilla Ed
 If you don't believe this, you can try it out yourself!
 
 Amsilla Editor is easy to implement. Just add this code to your website:
-`<script src="https://raw.githubusercontent.com/Fairies-Feast/amsilla-editor/refs/heads/main/editor.js"></script>`
+`<script src="https://fairies-feast.github.io/amsilla-editor/editor.js"></script>`
 You change parts of it, or use the original CSS code:
-`<link href="https://raw.githubusercontent.com/Fairies-Feast/amsilla-editor/refs/heads/main/editor.css" rel='stylesheet' type='text/css'/>`
+`<link href="https://fairies-feast.github.io/amsilla-editor/editor.css" rel='stylesheet' type='text/css'/>`
 
 
 If you see any bugs, feel free to send a pull request, or you can add an issue.
