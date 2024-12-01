@@ -10,3 +10,7 @@
   outline:none;
   color:transparent;
 }
+.ams-syntax, .ams-write {
+  padding:0;
+  margin:0;
+}
