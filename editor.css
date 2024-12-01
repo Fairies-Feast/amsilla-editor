@@ -1,9 +1,9 @@
 /*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
-#syntax {
+.ams-syntax {
   position:absolute; /*OK to remove but replace with position:fixed;*/
   z-index: -1;
 }
-#write {
+.ams-write {
   background:transparent;
   border:none;
   resize: none;
