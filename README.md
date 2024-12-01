@@ -10,6 +10,8 @@ Amsilla Editor is easy to implement. Just add this code to your website:
 `<script src="https://fairies-feast.github.io/amsilla-editor/editor.js"></script>`
 Add the essential CSS code:
 `<link href="https://fairies-feast.github.io/amsilla-editor/editor.css" rel='stylesheet' type='text/css'/>`
+If you wish to style the editor the same way used in this demo, use the original CSS code:
+`<link href="https://fairies-feast.github.io/amsilla-editor/orig.css" rel="stylesheet" type="text/css" />`
 
 
 If you see any bugs, feel free to send a pull request, or you can add an issue.
