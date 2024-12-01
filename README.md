@@ -8,7 +8,7 @@ If you don't believe this, you can try it out yourself!
 
 Amsilla Editor is easy to implement. Just add this code to your website:
 `<script src="https://fairies-feast.github.io/amsilla-editor/editor.js"></script>`
-You change parts of it, or use the original CSS code:
+Add the essential CSS code:
 `<link href="https://fairies-feast.github.io/amsilla-editor/editor.css" rel='stylesheet' type='text/css'/>`
 
 
