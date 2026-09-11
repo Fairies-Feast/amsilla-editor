@@ -12,7 +12,7 @@
 
 <body>
   <h2>Welcome to the Amsilla Editor</h2>
-  <p>The Amsilla Editor allows you to add-on syntax and error highlighting. In the demo below, "error" appears with a red line underneath. Try typing some more "error"s, or deleting all the content!</p>
+  <p>The Amsilla Editor allows you to add-on syntax and error highlighting. In the demo below, "error" appears with a red line underneath, and "warning" appears colored in yellow. Try typing some more "error"s, or deleting all the content!</p>
   <div id='syntax'></div>
   <textarea id='write' spellcheck="false">error</textarea>
   <h1>Open Source</h1>
@@ -22,7 +22,7 @@
       if (e == "") {
         return "Text to show when there is no content...";
       }
-      return e.replaceAll("error","<span class='error'>error</span>") + "<wbr><span class='key'>Tab</span> Some text!";
+      return e.replaceAll("error","<span class='error'>error</span>") + e.replaceAll("warning","<span class='warning'>warning</span>") + "&nbsp;&nbsp;<wbr><span class='key'>Tab</span> Some text!";
     })
   </script>
 </body>
